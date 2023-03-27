@@ -35,11 +35,29 @@ display: inline-block;
     margin: 27px 20px;
 }
 	.directl{
-		font-size:25px;
-		background:teal;
-		border-radius:4px;
-		padding:10px;
-		margin:20px auto;
+		font-size: 18px;
+    background: #c00d0dd9;
+    color: yellow;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px auto;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 2px 1px 8px 0px #5c5c5c;
+    position: fixed;
+    top: 120px;
+    transition: 2s;
+    transition-delay: 1s;
+    left: -202px;
+		animation:slide 1s ;
+	}
+	@keyframes slide{
+		from{
+			 left: -202px;
+		}
+		to{
+			 left: 0px;
+		}
 	}
 	
 	
